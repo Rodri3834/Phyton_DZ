@@ -13,3 +13,11 @@ for i in num:
         sum += int(i)
 
 print(f" Сумма чисел числа {num} = {sum}")
+num = int(12345)
+a = num % 10000
+b = num % 10000 // 1000
+c = num % 1000 // 100
+d = num // 10000
+e = num % 100 // 10
+print(num)
+print(a)
